@@ -18,6 +18,11 @@ const About = () => {
     const goToAbout = () => {
     navigate("/"); // 👈 navigate to the About page
   };
+
+  const navigate2 = useNavigate();
+    const gotoContact = () => {
+    navigate2("/contact"); // 👈 navigate to the Contact page
+  };
   return (
     <div className='container about'>
        <div className="text-end d-lg-none d-block">
@@ -67,17 +72,19 @@ const About = () => {
                                           <h6>Shaik Wazid</h6>
                                           <h6 className='title_one'>Front - End Developer</h6>
                                         </div>
-                                        <div className="d-flex gap-3 justify-content-center">
-                                          <div className="">
-                                              <button className='custom_btn2'><CiMail size="1.5em"  /></button>
-                                          </div>
-                                          <div className="">
-                                              <button className='custom_btn2'><FaGithub  size="1.5em"  /></button>
-                                          </div>
-                                          <div className="">
-                                              <button className='custom_btn2'><CiLinkedin   size="1.5em"  /></button>
-                                          </div>
-                                        </div>
+                                        <div className="d-flex gap-3 justify-content-center mb-lg-0 mb-4 justify-content-lg-end">
+                                                            <div className="">
+                                                                <a className='custom_btn2' onClick={gotoContact}  ><CiMail size="1.5em"  /></a>
+                                                            </div>
+                                                            <div className="">
+                                                                <a className='custom_btn2' href='https://github.com/shaikwazid' target="_blank"
+                                          rel="noopener noreferrer"><FaGithub  size="1.5em"  /></a>
+                                                            </div>
+                                                            <div className="">
+                                                                <a className='custom_btn2'  href='https://www.linkedin.com/in/shaikwazid4047/' target="_blank"
+                                          rel="noopener noreferrer"><CiLinkedin   size="1.5em"  /></a>
+                                                            </div>
+                                                          </div>
                                       </div>
                                     </div>
                                   </div>

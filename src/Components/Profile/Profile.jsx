@@ -60,7 +60,7 @@ const navigate = useNavigate();
 
                   <div className="d-flex gap-3 justify-content-center mb-lg-0 mb-4 justify-content-lg-end">
                     <div className="">
-                        <NavLink className='custom_btn2' onClick={gotoContact} ><CiMail size="1.5em"  /></NavLink>
+                        <a className='custom_btn2' onClick={gotoContact} ><CiMail size="1.5em"  /></a>
                     </div>
                     <div className="">
                         <a className='custom_btn2' href='https://github.com/shaikwazid' target="_blank"
