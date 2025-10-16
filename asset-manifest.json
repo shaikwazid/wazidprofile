@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wazidprofile/static/css/main.d270980d.css",
+    "main.js": "/wazidprofile/static/js/main.2efada41.js",
+    "static/js/453.3465f62f.chunk.js": "/wazidprofile/static/js/453.3465f62f.chunk.js",
+    "static/media/wazid.jpg": "/wazidprofile/static/media/wazid.c2e06874c38911b962db.jpg",
+    "index.html": "/wazidprofile/index.html",
+    "main.d270980d.css.map": "/wazidprofile/static/css/main.d270980d.css.map",
+    "main.2efada41.js.map": "/wazidprofile/static/js/main.2efada41.js.map",
+    "453.3465f62f.chunk.js.map": "/wazidprofile/static/js/453.3465f62f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d270980d.css",
+    "static/js/main.2efada41.js"
+  ]
+}
